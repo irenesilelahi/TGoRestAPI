@@ -6,8 +6,7 @@ README</a> 👋
 <h2 align="center">
 Test Script Design & Execution Guide
 </h2> 
-
-Designing test scripts and providing clear instructions for setting up and running them are crucial for ensuring that tests are maintainable, reusable, and easy to execute. Below, I’ll describe how I design test scripts and provide a README template for setting up and running the scripts.
+This README provides instructions for setting up, running, and understanding the test suite. It also includes describe how I design test scripts.
 
 ### 1. Test Script Design
 
@@ -73,7 +72,15 @@ Software & Tools:
         <artifactId>jackson-databind</artifactId>
         <version>2.14.1</version>
     </dependency>
-
+  ```
+  - Configure the Environment:
+    Create a config.properties file in the src/test/resources directory with the following content:
+    properties
+    ```
+    base_url=https://gorest.co.in/public/v2
+    token=your_access_token_here
+     ```
+    Replace your_access_token_here with your actual GoRest API token.
 
 ### 3. Running the Tests
 
@@ -88,20 +95,11 @@ Run the test cases using Maven
 - 3.2 Running Tests in IntelliJ IDEA 
 Open the test file.
 Click on the Run button beside the test method or class.
-- 3.3 Running with TestNG XML
-Use a testng.xml file for structured execution:
+- 3.3 Run All Tests
+To run all the tests, use the following command:
 ```
-<suite name="API Test Suite">
-    <test name="User API Tests">
-        <classes>
-            <class name="org.example.GoRestAPITest"/>
-        </classes>
-    </test>
-</suite>
+mvn test
 ```
-Run with:
-```mvn test -Dsurefire.suiteXmlFiles=testng.xml```
-
 
 ### 4. Debugging & Logs
 - Check logs in ```target/surefire-reports/```
@@ -116,10 +114,6 @@ Or Extent Reports for graphical results.
 
 ### 6. Best Practices
 ✅ Maintain clear and modular test scripts. ✅ Use assertions for validation. ✅ Parameterize inputs for flexibility. ✅ Keep test data separate from scripts. ✅ Ensure scripts are CI/CD compatible.
-
-
-### 7. Contact & Support
-For issues, contact irene.silalahi123@gmail.com  or refer to the documentation inside the project repository.
 
 ### Built With
 [![My Skills](https://skillicons.dev/icons?i=java,idea,nodejs,maven&theme=dark)](https://skillicons.dev)
