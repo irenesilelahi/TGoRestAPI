@@ -31,7 +31,7 @@ public class BaseTest {
 
         // Request Installation
         request = RestAssured.given()
-                .header("Authorization", "Bearer " + TOKEN) // Tambahkan token jika diperlukan
+                .header("Authorization", "Bearer " + TOKEN) // add token if needed
                 .header("Content-Type", "application/json");
     }
 
