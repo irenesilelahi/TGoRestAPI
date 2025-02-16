@@ -2,12 +2,18 @@ import org.example.BaseTest;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import io.qameta.allure.*;
 
+@Epic("GorestAPI")
+@Feature("https://gorest.co.in/")
 public class GoRestAPITest extends BaseTest {
 
     private int userId;
 
     @Test(priority = 1)
+    @Story("Create a new user")
+    @Description("This test verifies the creation of a new user in the API")
+    @Severity(SeverityLevel.CRITICAL)
     public void testCreateUser() {
         String uniqueEmail = "user_" + System.currentTimeMillis() + "@example.com";
 
@@ -31,6 +37,9 @@ public class GoRestAPITest extends BaseTest {
     }
 
     @Test(priority = 2, dependsOnMethods = "testCreateUser")
+    @Story("Get the user")
+    @Description("This test verifies the Get Data of a user in the API")
+    @Severity(SeverityLevel.CRITICAL)
     public void testGetUser() {
         Response response = request
                 .when()
@@ -41,6 +50,9 @@ public class GoRestAPITest extends BaseTest {
     }
 
     @Test(priority = 3, dependsOnMethods = "testGetUser")
+    @Story("Update user")
+    @Description("This test verifies update user in the API")
+    @Severity(SeverityLevel.CRITICAL)
     public void testUpdateUser() {
         String requestBody = "{" +
                 "\"name\": \"Jane Due\"," +
@@ -57,6 +69,9 @@ public class GoRestAPITest extends BaseTest {
     }
 
     @Test(priority = 4, dependsOnMethods = "testUpdateUser")
+    @Story("Delete user")
+    @Description("This test verifies to delete of user in the API")
+    @Severity(SeverityLevel.CRITICAL)
     public void testDeleteUser() {
         Response response = request
                 .when()
