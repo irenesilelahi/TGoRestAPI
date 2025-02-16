@@ -2,12 +2,20 @@ import org.example.BaseTest;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import io.qameta.allure.*;
 
+
+@Epic("User API Testing")
+@Feature("Create User")
 public class GoRestAPITest extends BaseTest {
 
     private int userId;
 
+
     @Test(priority = 1)
+    @Story("Create a new user")
+    @Description("This test verifies the creation of a new user in the API")
+    @Severity(SeverityLevel.CRITICAL)
     public void testCreateUser() {
         String uniqueEmail = "user_" + System.currentTimeMillis() + "@example.com";
 
