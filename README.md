@@ -1,3 +1,4 @@
+<a id="readme-top"></a>
 <h3 align="center">
 README</a> 👋
 </h3>
@@ -11,17 +12,17 @@ Designing test scripts and providing clear instructions for setting up and runni
 ### 1. Test Script Design
 
 - 1.1 Understanding Requirements
-    * Gather functional and non-functional requirements.
-    * Identify test scenarios based on business logic, edge cases, and user workflows.
-    * Define expected outcomes for each scenario.
+   * Gather functional and non-functional requirements.
+   * Identify test scenarios based on business logic, edge cases, and user workflows.
+   * Define expected outcomes for each scenario.
 - 1.2 Choosing the Test Framework  
   * Framework: Use a testing framework like TestNG or JUnit for Java.
-  * Libraries: Use libraries like RestAssured for API testing.
-  * Build Tool: Use Maven or Gradle for dependency management and running tests.
+  * Libraries: Use RestAssured libraries for API testing.
+  * Build Tool: Use Maven  for dependency management and running tests.
 - 1.3 Structuring the Test Script:  
   * Base Test Class: Create a BaseTest class to handle common setup (e.g., initializing RestAssured, loading configurations).
   * Test Classes: Create separate test classes for different functionalities (e.g., UserTests, ProductTests).
-  *Utilities: Create utility classes for reusable methods (e.g., generating random data, reading configuration files).
+  * Utilities: Create utility classes for reusable methods (e.g., generating random data, reading configuration files).
 - 1.4 Writing Reusable Components
   * Create utility methods for common API calls or UI actions.
   * Implement Page Object Model (POM) for UI automation.
@@ -114,7 +115,7 @@ Enable debug mode:
 Or Extent Reports for graphical results.
 
 ### 6. Best Practices
-✅ Maintain clear and modular test scripts. ✅ Use assertions for validation. ✅ Parameterize inputs for flexibility. ✅ Keep test data separate from scripts. ✅ Ensure scripts are CI/CD compatible (e.g., GitHub Actions, Jenkins).
+✅ Maintain clear and modular test scripts. ✅ Use assertions for validation. ✅ Parameterize inputs for flexibility. ✅ Keep test data separate from scripts. ✅ Ensure scripts are CI/CD compatible.
 
 
 ### 7. Contact & Support
