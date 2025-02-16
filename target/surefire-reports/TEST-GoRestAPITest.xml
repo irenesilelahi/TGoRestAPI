@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="GoRestAPITest" time="2.554" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/irenepermatasari/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M7/surefire-booter-3.0.0-M7.jar:/Users/irenepermatasari/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M7/surefire-api-3.0.0-M7.jar:/Users/irenepermatasari/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M7/surefire-logger-api-3.0.0-M7.jar:/Users/irenepermatasari/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M7/surefire-shared-utils-3.0.0-M7.jar:/Users/irenepermatasari/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M7/surefire-extensions-spi-3.0.0-M7.jar:/Users/irenepermatasari/TGoRestAPI/target/test-classes:/Users/irenepermatasari/TGoRestAPI/target/classes:/Users/irenepermatasari/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/irenepermatasari/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/irenepermatasari/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/irenepermatasari/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/irenepermatasari/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/irenepermatasari/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/irenepermatasari/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/irenepermatasari/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/irenepermatasari/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/irenepermatasari/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/irenepermatasari/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/irenepermatasari/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/irenepermatasari/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/irenepermatasari/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/irenepermatasari/.m2/repository/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar:/Users/irenepermatasari/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/irenepermatasari/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/irenepermatasari/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/irenepermatasari/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/irenepermatasari/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/Users/irenepermatasari/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/Users/irenepermatasari/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:/Users/irenepermatasari/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/Users/irenepermatasari/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/Users/irenepermatasari/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/irenepermatasari/.m2/repository/io/qameta/allure/allure-testng/2.24.0/allure-testng-2.24.0.jar:/Users/irenepermatasari/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/irenepermatasari/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/irenepermatasari/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:/Users/irenepermatasari/.m2/repository/org/apache/maven/surefire/surefire-testng/3.0.0-M7/surefire-testng-3.0.0-M7.jar:/Users/irenepermatasari/.m2/repository/org/apache/maven/surefire/common-java5/3.0.0-M7/common-java5-3.0.0-M7.jar:/Users/irenepermatasari/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/3.0.0-M7/surefire-testng-utils-3.0.0-M7.jar:/Users/irenepermatasari/.m2/repository/org/apache/maven/surefire/surefire-grouper/3.0.0-M7/surefire-grouper-3.0.0-M7.jar"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/irenepermatasari/TGoRestAPI/target/surefire 2025-02-17T00-35-13_715-jvmRun1 surefire-20250217003513816_1tmp surefire_0-20250217003513816_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/irenepermatasari/TGoRestAPI/target/test-classes:/Users/irenepermatasari/TGoRestAPI/target/classes:/Users/irenepermatasari/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/irenepermatasari/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/irenepermatasari/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/irenepermatasari/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/irenepermatasari/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/irenepermatasari/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/irenepermatasari/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/irenepermatasari/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/irenepermatasari/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/irenepermatasari/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/irenepermatasari/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/irenepermatasari/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/irenepermatasari/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/irenepermatasari/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/irenepermatasari/.m2/repository/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar:/Users/irenepermatasari/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/irenepermatasari/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/irenepermatasari/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/irenepermatasari/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/irenepermatasari/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/Users/irenepermatasari/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/Users/irenepermatasari/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:/Users/irenepermatasari/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/Users/irenepermatasari/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/Users/irenepermatasari/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/irenepermatasari/.m2/repository/io/qameta/allure/allure-testng/2.24.0/allure-testng-2.24.0.jar:/Users/irenepermatasari/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/irenepermatasari/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/irenepermatasari/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:"/>
+    <property name="allure.results.directory" value="target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/irenepermatasari"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/irenepermatasari/TGoRestAPI"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="irenepermatasari"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/irenepermatasari/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/zt/8hlyfd955b7c80bt7q0df7rc0000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/irenepermatasari/TGoRestAPI"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/irenepermatasari/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testCreateUser" classname="GoRestAPITest" time="0.944">
+    <system-out><![CDATA[Response Status Code: 201
+Response Body: {"id":7702500,"name":"Irene Testing","email":"user_1739727314390@example.com","gender":"female","status":"active"}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser" classname="GoRestAPITest" time="0.414"/>
+  <testcase name="testUpdateUser" classname="GoRestAPITest" time="0.339"/>
+  <testcase name="testDeleteUser" classname="GoRestAPITest" time="0.366"/>
+</testsuite>

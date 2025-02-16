@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-17T00:35:14 WIB" name="Surefire suite" finished-at="2025-02-17T00:35:16 WIB" duration-ms="2271">
+    <groups>
+    </groups>
+    <test started-at="2025-02-17T00:35:14 WIB" name="Surefire test" finished-at="2025-02-17T00:35:16 WIB" duration-ms="2271">
+      <class name="GoRestAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:GoRestAPITest@59402b8f]" started-at="2025-02-17T00:35:14 WIB" name="setup" finished-at="2025-02-17T00:35:14 WIB" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateUser()[pri:1, instance:GoRestAPITest@59402b8f]" started-at="2025-02-17T00:35:14 WIB" name="testCreateUser" finished-at="2025-02-17T00:35:15 WIB" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testGetUser()[pri:2, instance:GoRestAPITest@59402b8f]" started-at="2025-02-17T00:35:15 WIB" name="testGetUser" finished-at="2025-02-17T00:35:15 WIB" depends-on-methods="GoRestAPITest.testCreateUser" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testUpdateUser()[pri:3, instance:GoRestAPITest@59402b8f]" started-at="2025-02-17T00:35:15 WIB" name="testUpdateUser" finished-at="2025-02-17T00:35:16 WIB" depends-on-methods="GoRestAPITest.testGetUser" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testDeleteUser()[pri:4, instance:GoRestAPITest@59402b8f]" started-at="2025-02-17T00:35:16 WIB" name="testDeleteUser" finished-at="2025-02-17T00:35:16 WIB" depends-on-methods="GoRestAPITest.testUpdateUser" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- GoRestAPITest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
