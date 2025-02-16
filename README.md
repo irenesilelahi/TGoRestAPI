@@ -11,9 +11,9 @@ This README provides instructions for setting up, running, and understanding the
 ### 1. Test Script Design
 
 - 1.1 Understanding Requirements
-   * Gather functional and non-functional requirements.
-   * Identify test scenarios based on business logic, edge cases, and user workflows.
-   * Define expected outcomes for each scenario.
+  * Gather functional and non-functional requirements.
+  * Identify test scenarios based on business logic, edge cases, and user workflows.
+  * Define expected outcomes for each scenario.
 - 1.2 Choosing the Test Framework  
   * Framework: Use a testing framework like TestNG or JUnit for Java.
   * Libraries: Use RestAssured libraries for API testing.
@@ -48,15 +48,15 @@ src
 ### 2. Test Setup Instructions
 
 #### Prerequisites
-Software & Tools:
-- Java JDK 11+
-- Maven (for dependency management)
-- IntelliJ IDEA / VS Code
-- Postman (for API testing validation)
-- Dependencies (Maven pom.xml)
-- Add the following dependencies:
-  dependencies
-  ```sh
+  Software & Tools:
+  - Java JDK 11+
+  - Maven (for dependency management)
+  - IntelliJ IDEA / VS Code
+  - Postman (for API testing validation)
+  - Dependencies (Maven pom.xml)
+  - Add the following dependencies:
+    dependencies
+    ```sh
     <dependency>
         <groupId>io.rest-assured</groupId>
         <artifactId>rest-assured</artifactId>
@@ -72,7 +72,7 @@ Software & Tools:
         <artifactId>jackson-databind</artifactId>
         <version>2.14.1</version>
     </dependency>
-  ```
+    ```
   - Configure the Environment:
     Create a config.properties file in the src/test/resources directory with the following content:
     properties
@@ -85,26 +85,26 @@ Software & Tools:
 ### 3. Running the Tests
 
 - 3.1 Command Line Execution
-Navigate to the project root directory
-```sh
- cd /path/to/project
-```
-Run the test cases using Maven
- ```mvn clean test```
+    Navigate to the project root directory
+    ```sh
+     cd /path/to/project
+    ```
+    Run the test cases using Maven
+     ```mvn clean test```
  
 - 3.2 Running Tests in IntelliJ IDEA 
-Open the test file.
-Click on the Run button beside the test method or class.
+    Open the test file.
+    Click on the Run button beside the test method or class.
 - 3.3 Run All Tests
-To run all the tests, use the following command:
-```
-mvn test
-```
+    To run all the tests, use the following command:
+    ```
+    mvn test
+    ```
 
 ### 4. Debugging & Logs
 - Check logs in ```target/surefire-reports/```
-Enable debug mode:
-``` mvn test -Dlog4j.debug=true```
+    Enable debug mode:
+    ``` mvn test -Dlog4j.debug=true```
 - Use breakpoints in IntelliJ for step-by-step debugging.
 
 ### 5. Reporting & Analysis
