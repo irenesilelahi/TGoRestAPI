@@ -102,8 +102,7 @@ src
     ```
 
 ### 4. Debugging & Logs
-- Check logs in ```target/surefire-reports/```
-    Enable debug mode:
+- Enable debug mode:
     ``` mvn test -Dlog4j.debug=true```
 - Use breakpoints in IntelliJ for step-by-step debugging.
 
