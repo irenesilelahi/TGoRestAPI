@@ -55,7 +55,6 @@ src
   - Postman (for API testing validation)
   - Dependencies (Maven pom.xml)
   - Add the following dependencies:
-    dependencies
     ```sh
     <dependency>
         <groupId>io.rest-assured</groupId>
